@@ -1,0 +1,14 @@
+public class Main {
+    public static void main(String[] args) {
+        
+        int user1 = 3;
+        int user2 = 9;
+        int user3 = 6;
+
+        if ((user2 - user1) == (user3 - user2)) {
+            System.out.println("The users form an arithmetic sequence.");
+        } else {
+            System.out.println("The users do NOT form an arithmetic sequence.");
+        }
+    }
+}
